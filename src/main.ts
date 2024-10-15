@@ -7,7 +7,7 @@ import { ValidationPipe } from '@nestjs/common';
 import './auth/strategies/access-token.strategy';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  console.log('Hello worldz...');
+  console.log('Hello world...');
 
   app.setGlobalPrefix('/api');
 
